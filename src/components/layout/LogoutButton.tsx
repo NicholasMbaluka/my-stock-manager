@@ -1,0 +1,1 @@
+"use client"; import { useTransition } from "react"; import { signOut } from "@/app/auth/actions"; export function LogoutButton(){ const [pending,start]=useTransition(); return <button className="logout" onClick={()=>start(()=>signOut())} disabled={pending}>{pending?"Signing out…":"Log out"}</button> }

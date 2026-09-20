@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" role="img" aria-label="My Stock Manager">
+  <rect width="480" height="180" fill="#09090b"/><text x="240" y="105" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="96" font-weight="900" fill="#fff" letter-spacing="-9">MSM</text>
+  <path d="M214 49h54l-16 16h-54z" fill="#f5bd3e"/><rect x="318" y="101" width="9" height="12" fill="#f5bd3e"/><rect x="333" y="94" width="9" height="19" fill="#f5bd3e"/><rect x="348" y="86" width="9" height="27" fill="#f5bd3e"/>
+  <text x="240" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#fff" letter-spacing="6">MY <tspan fill="#f5bd3e">STOCK</tspan> MANAGER</text>
+</svg>

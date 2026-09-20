@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Home(){return <main className="landing"><div><span className="brand-mark">MSM</span><h1>Simple stock management for growing businesses.</h1><p>Track products, receive stock, record sales, and see what matters — all in one focused workspace.</p><div><Link className="primary" href="/register">Create free account</Link> <Link className="secondary" href="/login">Sign in</Link></div></div></main>}
