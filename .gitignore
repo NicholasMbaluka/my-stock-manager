@@ -1,3 +1,20 @@
+# Dependencies
 node_modules
+
+# Next.js build output
 .next
-.env.local
+out
+build
+
+# Local environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# TypeScript incremental build info
+*.tsbuildinfo
+
+# Logs and OS files
+npm-debug.log*
+yarn-error.log*
+.DS_Store

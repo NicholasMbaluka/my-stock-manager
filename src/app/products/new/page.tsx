@@ -1,6 +1,11 @@
+import { requireUser } from "@/lib/auth";
 import { ProductForm } from "@/components/products/ProductForm";
 
-export default function NewProduct() {
+export const dynamic = "force-dynamic";
+
+export default async function NewProduct() {
+  await requireUser();
+
   return (
     <div className="content">
       <div className="page-head">
