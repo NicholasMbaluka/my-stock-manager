@@ -8,8 +8,8 @@ export async function middleware(request: NextRequest) {
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   const { pathname } = request.nextUrl;
 
-  // If Supabase is not configured yet, allow the public pages and send
-  // everything else to login rather than crashing the app.
+  // If Supabase is not configured yet, keep the public pages working and send
+  // everything else to login rather than crashing the app with a 500.
   if (!url || !key) {
     if (publicPaths.has(pathname) || pathname.startsWith("/auth")) {
       return NextResponse.next({ request });
