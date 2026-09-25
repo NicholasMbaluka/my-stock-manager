@@ -9,7 +9,7 @@ export function StockBadge({
 }) {
   const status = stockStatus(stock, threshold);
   return (
-    <span className={`tag ${status.toLowerCase().replace("_", "-")}`}>
+    <span className={`tag ${status.toLowerCase().replace(/_/g, "-")}`}>
       {STOCK_STATUS_LABEL[status]}
     </span>
   );

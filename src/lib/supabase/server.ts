@@ -14,7 +14,10 @@ export async function createClient() {
             items.forEach(({ name, value, options }) =>
               store.set(name, value, options),
             );
-          } catch {}
+          } catch {
+            // Setting cookies is not allowed in Server Components; the proxy
+            // refreshes the session, so this can be safely ignored here.
+          }
         },
       },
     },

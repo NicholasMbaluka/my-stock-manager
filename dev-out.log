@@ -1,0 +1,16 @@
+
+> my-stock-manager@1.0.0 dev
+> next dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+▲ Next.js 16.3.5 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://169.254.186.127:3000
+✓ Ready in 28.1s
+⚠ Console Ninja Turbopack support is a PRO feature, [33mcurrently available to community users while in preview[0m
+✓ Running next.config.ts took 618ms
+
+○ Compiling / ...
+ GET / 200 in 14.8s (next.js: 11.7s, proxy.ts: 1321ms, application-code: 1795ms)
+ GET /login 200 in 2.0s (next.js: 1745ms, proxy.ts: 25ms, application-code: 271ms)
+ GET /register 200 in 1293ms (next.js: 1125ms, proxy.ts: 24ms, application-code: 145ms)

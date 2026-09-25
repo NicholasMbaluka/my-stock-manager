@@ -42,7 +42,7 @@ export default async function Transactions() {
                       {movement.quantity}
                     </td>
                     <td>
-                      {movement.unit_price != null
+                      {movement.unit_price !== null
                         ? formatCurrency(movement.unit_price)
                         : "—"}
                     </td>
